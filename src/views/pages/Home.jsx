@@ -187,7 +187,7 @@ const Home = () => {
 		}
 
 		if (!formDetails.agree) {
-			newErrors.agree = "You must agree tot terms to continue";
+			newErrors.agree = "You must agree to terms to continue";
 		}
 
 		setErrors(newErrors);
