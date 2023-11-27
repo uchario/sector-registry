@@ -6,7 +6,7 @@ const config = () => {
   if (!cache) {
     cache = Object.freeze({
       secrets: {
-        apiHost: "https://sector-registry-backend.onrender.com/",
+        apiHost: "https://sector-registry-backend.onrender.com",
         environment,
       },
     });
